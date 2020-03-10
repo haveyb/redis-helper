@@ -1,0 +1,20 @@
+{
+    "name": "haveyb/redis-helper",
+    "description": "PHP使用Redis的快速上手composer包",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "haveyb",
+            "email": "haveyb@163.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "haveyb\\RedisHelper\\":"./src/"
+        }
+    }
+}
